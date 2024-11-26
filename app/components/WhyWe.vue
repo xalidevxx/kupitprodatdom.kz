@@ -30,10 +30,14 @@
 
 <style lang="scss" scoped>
 .row {
-	margin-top: 32px;
-	display: flex;
-	flex-wrap: wrap;
-	gap: 24px;
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    margin-top: 16px;
+  }
 }
 
 li {

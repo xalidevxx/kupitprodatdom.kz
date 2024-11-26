@@ -34,9 +34,12 @@
 
 .cards {
 	margin-top: 32px;
-	display: flex;
-	flex-wrap: wrap;
-	gap: 16px;
-	justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 16px;
+  box-sizing: border-box;
+  @media (max-width: 768px) {
+    gap: 4px;
+  }
 }
 </style>

@@ -15,9 +15,13 @@
 
 <style lang="scss" scoped>
 main {
-	margin: 64px 0;
-	display: flex;
-	flex-direction: column;
-	gap: 64px;
+  margin: 64px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  @media (max-width: 768px) {
+    margin: 32px 0;
+    gap: 32px;
+  }
 }
 </style>
