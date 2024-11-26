@@ -3,7 +3,7 @@
 	"description": "Агенство недвижимости",
 	"homepage": "https://kupitprodatdom.kz/",
 	"author": "Alikhan <xalidevxx@gmail.com>",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"private": true,
 	"type": "module",
 	"scripts": {
