@@ -49,6 +49,7 @@ img {
   @media (max-width: 768px) {
     left: 0;
     right: 0;
+    filter: brightness(80%);
   }
 
   &.desktop {
