@@ -1,5 +1,7 @@
 <template>
-	<img src="/icons/icon-512.png" alt="KupitProdatDom" loading="lazy" />
+	<a href="https://kupitprodatdom.kz/">
+		<img src="/icons/icon-512.png" alt="KupitProdatDom" loading="lazy" />
+	</a>
 </template>
 
 <style scoped lang="scss">

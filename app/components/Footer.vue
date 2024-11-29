@@ -29,7 +29,7 @@
 footer {
 	height: 250px;
 	color: #ffffff !important;
-	background-color: #1a1f36;
+	background-color: #0d0f1a;
 }
 
 .column {

@@ -43,3 +43,18 @@ h5 {
 	font-weight: 400;
 	line-height: 1.5;
 }
+
+.swiper {
+	.v-btn--active {
+		.mdi-circle {
+			color: black;
+		}
+	}
+}
+
+.swiper {
+	.mdi-circle {
+		opacity: 1;
+		color: grey;
+	}
+}

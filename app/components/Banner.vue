@@ -34,12 +34,6 @@
 	gap: 64px;
 	border-radius: 40px;
 	overflow: hidden;
-
-	@media (max-width: 575px) {
-		height: 450px;
-		margin: 0 -16px;
-		border-radius: 0;
-	}
 }
 
 img {
@@ -58,19 +52,27 @@ h1 {
 	z-index: 2;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	border: 1px solid #f5f5f5;
-
-	@media (max-width: 768px) {
-		font-size: 22px;
-	}
-
-	@media (max-width: 475px) {
-		font-size: 18px;
-	}
 }
 
 .button {
 	position: absolute;
 	bottom: 90px;
 	z-index: 1;
+}
+
+@media (max-width: 768px) {
+	.banner {
+		height: 450px;
+		margin: 0 -16px;
+		border-radius: 0;
+	}
+
+	h1 {
+		font-size: 22px;
+	}
+
+	.button {
+		height: 40px;
+	}
 }
 </style>
