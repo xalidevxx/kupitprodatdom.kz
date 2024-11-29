@@ -6,7 +6,7 @@
 				<h4>Для продавцов:</h4>
 				<h5>
 					Мы предлагаем самые выгодные условия -
-					<a href="#" target="_blank"> Экслюзивный договор</a>
+					<span style="color: blue">Экслюзивный договор</span>
 					<br />
 					<br />
 					Сравним наши условия с Крыша Агентом:
@@ -37,13 +37,13 @@
 
 <style scoped lang="scss">
 .row {
-  margin-top: 32px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  @media (max-width: 768px) {
-    flex-direction: column;
-    margin-top: 16px;
-  }
+	margin-top: 32px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+	@media (max-width: 768px) {
+		flex-direction: column;
+		margin-top: 16px;
+	}
 }
 </style>

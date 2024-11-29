@@ -20,8 +20,10 @@
 				<h4>Для покупателей:</h4>
 				<h5>
 					<a href="https://m.takta.kz/" target="_blank">Takta.kz</a>
-					наш официальный партнер. В нашем каталоге более 1 млн + выбора. Мы
-					найдем идеальную недвижимость для вас и поможем с оформлением.
+					наш официальный партнер. В нашем каталоге более
+					<b style="color: #ff3b30"> 1 млн + </b>
+					выбора. Мы найдем идеальную недвижимость для вас и поможем с
+					оформлением.
 				</h5>
 			</section>
 		</div>
@@ -30,14 +32,14 @@
 
 <style lang="scss" scoped>
 .row {
-  margin-top: 32px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  @media (max-width: 768px) {
-    flex-direction: column;
-    margin-top: 16px;
-  }
+	margin-top: 32px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+	@media (max-width: 768px) {
+		flex-direction: column;
+		margin-top: 16px;
+	}
 }
 
 li {
